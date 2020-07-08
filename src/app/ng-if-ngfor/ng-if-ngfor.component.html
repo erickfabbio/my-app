@@ -1,0 +1,8 @@
+<!--input (input)="numero = $event.target.value" />
+<h1 *ngIf="numero > 5">maior que 5</h1>
+<h1 *ngIf="numero < 5">menor que 5</h1>
+<h1 *ngIf="numero == 5">igual à 5</h1 -->
+
+<div *ngFor="let n of arrNumeros">
+    <h1 *ngIf="n !== 'julio'">{{ n }}</h1>
+</div>
